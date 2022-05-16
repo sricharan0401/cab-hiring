@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bill</title>
+    <style>.logo{
+        height:  90px;
+        position : static;
+      }
+      .food{
+        height :410px;
+      }
+      .box{
+        font-family: 'Source Sans Pro', sans-serif;
+        height: 135px;
+        width : 615px;
+        font-size:16px;
+        background-color : lightgrey;
+        color:#555;
+       line-height:1.4;
+        padding:4.5px;
+        }
+      .billlogo{
+        height: 100px;
+      }
+      h2,h3,h4,h5{
+        font-family :'Source Sans Pro', sans-serif;
+        
+      }
+      h4{
+        color:#555;
+      }
+      a{
+        color : #EE7800;
+      }
+      .social{
+        width: 17px;
+        height: 17px;
+        cursor : pointer;
+      }
+      .order{
+        font-size : 24px;
+        color : #EE7700;
+      }
+      .fork{
+        position: absolute; 
+        top: 0; 
+        right: 0; 
+      }
+      
+      button{
+              float:right;
+              
+              
+              font-family:'Montserrat',sans-serif;
+              border:3px solid #e6e6ec;
+              background-color: #EE7700;
+              color:#fcfcfc;
+              cursor:pointer;
+              transition:all .3s;
+             margin-right: 710px;
+              border-radius: 20px;
+              width:80px;
+              height:30px
+            }
+            button:hover{
+              background:#1aee36;
+              color:#fff}
+
+
+    </style>
+    </head>
+   <body>
+    <center>
+      <center><br>
+        <div class="box">
+          <br>Your cab will be ready for pickup on <b>28/03</b> at <b>3:30pm.</b><br><br>The cabme app offers mobility solutions by connecting customers to drivers and a wide range of vehicles across bikes, auto-rickshaws, metered taxis, and cabs, enabling convenience and transparency</div>
+        <center><img class="billlogo" src="20.jpg"></img>
+          <br>
+          <h2> Cab me </h2>
+        <h4> Baner Road | Rasta Peth | Pune<br><br>
+     <div class ="order">&nbsp;&nbsp;OTP<p id="1"></p></div>
+        </h4> 
+        
+        <button class="btnstyle" onclick="document.getElementById('1').innerHTML = getRndInteger(100000,999999)">Check</button>
+          <br><br><hr>
+        
+        
+          <h4>Have questions? Write to us at <a href=#>support@Cabme.com</a></h4>
+          <h5> Tower D, 9th Floor, IBC Knowledge Park, Bangalore - 560029<br>
+   <a href="../../main.html">www.cabme.com</a></h5>
+          <img class="social" src="https://gallery.mailchimp.com/935cde8faa405d2d908226449/images/social_icons_02.png"></img> <img class="social" src="https://gallery.mailchimp.com/935cde8faa405d2d908226449/images/social_icons_03.png"></img> <img class="social"
+            src="https://gallery.mailchimp.com/935cde8faa405d2d908226449/images/social_icons_04.png"> </img>
+
+
+
+
+
+<script>
+function getRndInteger(min, max) 
+  {
+    let x=Math.floor(Math.random() * (max - min)) + min;
+    x = "#" + x;
+  return  x;
+    
+  
+}
+</script>
+
+</body>
+</html>
+ 
